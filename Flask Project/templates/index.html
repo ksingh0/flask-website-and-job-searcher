@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block title %}Home page{% endblock %}
+{% block content %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Heroes · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/heroes/">
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <style type="text/css">
+      .bgimg {
+          background-image: url()
+      }
+      </style>
+    
+    <!-- Custom styles for this template -->
+    <link href="heroes.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<main>
+  
+  <div class="bg-dark px-4 py-5 text-center" style = 'padding-bottom: 10em;'>
+    <!-- <image src="{{ url_for('static', filename = 'images/image.jpg')}}"> -->
+    <h1 class="display-1 fw-bold text-white">Kris Singh</h1>
+    <div class="col-lg-6 mx-auto">
+      
+      <p class="lead mb-4 text-secondary">2nd Year Software Engineering Student</p>
+      
+    </div>
+  </div>
+  <div class="bg-dark px-4 py-5 b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center">
+    <h1 class="display-4 fw-bold">Welcome to My Little Corner of the Internet</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4"></p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="https://www.linkedin.com/in/singh-kris/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" >
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1 2.838A1.838 1.838 0 0 1 2.838 1H21.16A1.837 1.837 0 0 1 23 2.838V21.16A1.838 1.838 0 0 1 21.161 23H2.838A1.838 1.838 0 0 1 1 21.161V2.838zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634 3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8-1.515 0-2.145 1.089-2.145 2.8v5.106H9.708V9.388zm-5.5 10.403h3.208V9.25H4.208v10.54zM7.875 5.812a2.063 2.063 0 1 1-4.125 0 2.063 2.063 0 0 1 4.125 0z"></path>
+        </svg>
+      </a>
+      <a href="https://github.com/ksingh0" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" id="GithubFill">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"></path>
+        </svg>
+      </a>
+      </div>
+      <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+      </div> -->
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <!-- <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+
+
+  <!-- <div class="b-example-divider"></div> -->
+
+ 
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
+{% endblock %}
